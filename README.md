@@ -34,4 +34,4 @@ discipline rather than only a limitation.
 
 ## Reach me
 
-[Portfolio](https://dikshant1103-beep.github.io) · dikshant1103@gmail.com
+[Portfolio](https://dikshant1103-beep.github.io) · [LinkedIn](https://www.linkedin.com/in/dikshant-470b7618b/) · dikshant1103@gmail.com
