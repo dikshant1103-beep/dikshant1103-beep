@@ -1,0 +1,42 @@
+# Featured work for the profile README.
+#
+# This is the only file to edit when the selected work changes — the table in
+# README.md is generated from it by scripts/render_readme.py, which fills in
+# language and last-push date from the GitHub API. Order here is order there.
+
+[[project]]
+repo  = "chassis-workbench"
+name  = "Chassis Workbench"
+live  = "https://chassis-workbench.vercel.app"
+blurb = "Motorcycle chassis and suspension design — geometry, kinematics, multibody dynamics with a generalized-α solver, structural concept lane"
+
+[[project]]
+repo  = "moto-sim"
+name  = "moto_sim"
+blurb = "PyChrono motorcycle simulator — tire PINNs, ROS2/Gazebo digital twin, validated against the Whipple benchmark to 0.02%"
+
+[[project]]
+repo  = "warrantylens"
+name  = "WarrantyLens"
+blurb = "EV warranty inspection assistant. Vision, OCR and retrieval over claim evidence — advisory and human-in-the-loop, it never calls fraud on its own"
+
+[[project]]
+repo  = "mambarul-studio"
+name  = "MambaRUL Studio"
+blurb = "Battery remaining-useful-life prediction with Mamba state-space models, conformal intervals, shipped as a desktop app"
+
+[[project]]
+repo  = "drone-inspector"
+name  = "EV Drone Inspector"
+blurb = "Autonomous warehouse inspection — PX4 SITL, Gazebo, ROS2, and a control centre with waypoint planning and click-to-go"
+
+[[project]]
+repo  = "jarvis"
+name  = "Jarvis"
+blurb = "A study assistant that runs entirely on a 4 GB laptop GPU. Grounds its answers in real APIs rather than model recall"
+
+[[project]]
+repo  = "zero-to-robot"
+name  = "Zero → Robot"
+live  = "https://zerotorobot.vercel.app"
+blurb = "The curriculum above, as a dashboard I actually use"

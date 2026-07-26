@@ -1,0 +1,48 @@
+name: Refresh README
+
+on:
+  schedule:
+    # Mondays 03:00 UTC — 08:30 IST, so the profile is current at the start of the week.
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+  push:
+    # Editing the prose or the project list should take effect immediately.
+    paths:
+      - README.tmpl.md
+      - projects.toml
+      - scripts/render_readme.py
+      - .github/workflows/refresh.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-readme
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"   # tomllib is stdlib from 3.11; no pip install needed
+
+      - name: Render README from template + live repo data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/render_readme.py
+
+      - name: Commit only if it actually changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README.md unchanged — nothing to commit"
+            exit 0
+          fi
+          git config user.name  "dikshant1103-beep"
+          git config user.email "261631710+dikshant1103-beep@users.noreply.github.com"
+          git add README.md
+          git commit -m "Refresh the selected-work table"
+          git push
