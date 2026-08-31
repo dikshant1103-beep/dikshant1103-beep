@@ -24,7 +24,7 @@ handing off the parts I don't understand.
 | **[Jarvis](https://github.com/dikshant1103-beep/jarvis)** | A study assistant that runs entirely on a 4 GB laptop GPU. Grounds its answers in real APIs rather than model recall | Python | Jul 2026 |
 | **[Zero → Robot](https://github.com/dikshant1103-beep/zero-to-robot)** · [live](https://zerotorobot.vercel.app) | The curriculum above, as a dashboard I actually use | JavaScript | Jul 2026 |
 
-<sub>Table regenerated from the GitHub API — last run 24 Aug 2026.</sub>
+<sub>Table regenerated from the GitHub API — last run 31 Aug 2026.</sub>
 <!-- WORK:END -->
 
 More, including the mechanical and CAD work: **[dikshant1103-beep.github.io](https://dikshant1103-beep.github.io)**
