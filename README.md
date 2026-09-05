@@ -31,10 +31,23 @@ More, including the mechanical and CAD work: **[dikshant1103-beep.github.io](htt
 
 ## What I'm working on
 
-A drone I build in hardware and a humanoid I keep in simulation until the
-hardware is worth buying. The honest constraint is a GTX 1650 Ti, so
-everything above is sized to run on a laptop — which turns out to be a useful
-discipline rather than only a limitation.
+**Battery layout as a stability parameter.** An electric motorcycle's pack is about a quarter of its
+mass, and unlike an engine you can split it and put the pieces where you like. The placement
+literature is inherited from cars and argues about the centre of gravity. It turns out that if you
+hold total mass *and* CG fixed and only move the modules around, the machine's weave damping still
+changes — and the axis that matters is roll, not yaw, by about an order of magnitude. Two layouts
+that are mirror images of each other, identical in mass, CG and both principal inertias, differ
+sevenfold; the sign of the product of inertia decides it.
+
+Paper drafted for *Vehicle System Dynamics*. It is simulation work with no vehicle behind it yet, so
+the prediction is written to be falsifiable: any motorcycle, 50 kg of ballast, 300 m of closed
+straight, one test day. The model is verified four ways before it is believed — against the published
+Meijaard benchmark, against a second derivation sharing no algebra with the first, by limiting-case
+reduction, and against structural claims published by people who had never heard of the work.
+
+Alongside that: a drone I build in hardware and a humanoid I keep in simulation until the hardware is
+worth buying. The honest constraint is a GTX 1650 Ti, so everything above is sized to run on a
+laptop — which turns out to be a useful discipline rather than only a limitation.
 
 ## Reach me
 
