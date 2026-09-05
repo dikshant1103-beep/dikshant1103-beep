@@ -16,15 +16,16 @@ handing off the parts I don't understand.
 <!-- WORK:START -->
 | Project | | Built with | Last push |
 |---|---|---|---|
-| **[Chassis Workbench](https://github.com/dikshant1103-beep/chassis-workbench)** · [live](https://chassis-workbench.vercel.app) | Motorcycle chassis and suspension design — geometry, kinematics, multibody dynamics with a generalized-α solver, structural concept lane | TypeScript | Aug 2026 |
-| **[moto_sim](https://github.com/dikshant1103-beep/moto-sim)** | PyChrono motorcycle simulator — tire PINNs, ROS2/Gazebo digital twin, validated against the Whipple benchmark to 0.02% | Python | Aug 2026 |
-| **[WarrantyLens](https://github.com/dikshant1103-beep/warrantylens)** | EV warranty inspection assistant. Vision, OCR and retrieval over claim evidence — advisory and human-in-the-loop, it never calls fraud on its own | Python | Jul 2026 |
-| **[MambaRUL Studio](https://github.com/dikshant1103-beep/mambarul-studio)** | Battery remaining-useful-life prediction with Mamba state-space models, conformal intervals, shipped as a desktop app | TypeScript | Jul 2026 |
-| **[EV Drone Inspector](https://github.com/dikshant1103-beep/drone-inspector)** | Autonomous warehouse inspection — PX4 SITL, Gazebo, ROS2, and a control centre with waypoint planning and click-to-go | Python | Jul 2026 |
-| **[Jarvis](https://github.com/dikshant1103-beep/jarvis)** | A study assistant that runs entirely on a 4 GB laptop GPU. Grounds its answers in real APIs rather than model recall | Python | Jul 2026 |
-| **[Zero → Robot](https://github.com/dikshant1103-beep/zero-to-robot)** · [live](https://zerotorobot.vercel.app) | The curriculum above, as a dashboard I actually use | JavaScript | Jul 2026 |
+| **[chassis-workbench](https://github.com/dikshant1103-beep/chassis-workbench)** · [live](https://chassis-workbench.vercel.app) | Motorcycle chassis and suspension design — geometry, kinematics, multibody dynamics with a generalized-α solver, structural concept lane | TypeScript | Aug 2026 |
+| **[moto-sim](https://github.com/dikshant1103-beep/moto-sim)** | PyChrono motorcycle simulator — tire PINNs, ROS2/Gazebo digital twin, validated against the Whipple benchmark to 0.02% | Python | Sep 2026 |
+| **[research_robot_phm](https://github.com/dikshant1103-beep/research_robot_phm)** | Do robot health benchmarks measure what they claim? A two-dataset audit — per-joint accuracy anti-correlates with joint travel at ρ = −0.986 | Python | Aug 2026 |
+| **[warrantylens](https://github.com/dikshant1103-beep/warrantylens)** | EV warranty inspection assistant. Vision, OCR and retrieval over claim evidence — advisory and human-in-the-loop, it never calls fraud on its own | Python | Jul 2026 |
+| **[mambarul-studio](https://github.com/dikshant1103-beep/mambarul-studio)** | Battery remaining-useful-life prediction with Mamba state-space models, conformal intervals, shipped as a desktop app | TypeScript | Jul 2026 |
+| **[drone-inspector](https://github.com/dikshant1103-beep/drone-inspector)** | Autonomous warehouse inspection — PX4 SITL, Gazebo, ROS2, and a control centre with waypoint planning and click-to-go | Python | Jul 2026 |
+| **[jarvis](https://github.com/dikshant1103-beep/jarvis)** | A study assistant that runs entirely on a 4 GB laptop GPU. Grounds its answers in real APIs rather than model recall | Python | Jul 2026 |
+| **[zero-to-robot](https://github.com/dikshant1103-beep/zero-to-robot)** · [live](https://zerotorobot.vercel.app) | The robotics curriculum above, as a dashboard I actually use | JavaScript | Jul 2026 |
 
-<sub>Table regenerated from the GitHub API — last run 31 Aug 2026.</sub>
+<sub>Table regenerated from the GitHub API — last run 5 Sep 2026.</sub>
 <!-- WORK:END -->
 
 More, including the mechanical and CAD work: **[dikshant1103-beep.github.io](https://dikshant1103-beep.github.io)**
